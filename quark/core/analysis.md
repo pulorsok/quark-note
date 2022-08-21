@@ -4,17 +4,17 @@
 儲存 Quark 進行樣本分析之分析記錄與分析結果，以及提供包括：初始化分析表格，清除資料等函式。
 
 ## module function 程式碼
-### init_pretty_table():
+### init_pretty_table
 初始化 PrettyTable 之表格，該表格主要儲存 summary report 之結果，資料包括：規則檔案名稱 (Filename)、規則描述 (Rule)、信心指數 (Confidence)、風險評分 (score) 與權重 (weight)。
 
 輸出：分析結果之 Pretty Table 資料
 
-### init_label_report_table():
+### init_label_report_table
 初始化 PrettyTable 之表格，該表格主要儲存 label 比較分析之結果，資料包括：分類名稱 (Label)、規則描述 (Description)、規則之數量 (Number of rules)、最高信心指數 (MAX Confidence %)。
 
 輸出：分析結果之 Pretty Table 資料。
 
-### clean_result(self):
+### clean_result
 清除 1-5 階段之分析結果。
 
 ## module 程式碼
